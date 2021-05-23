@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-23T14:01:13Z" name="Regression Test" finished-at="2021-05-23T14:01:33Z" duration-ms="20132">
+    <groups>
+    </groups>
+    <test started-at="2021-05-23T14:01:13Z" name="Test" finished-at="2021-05-23T14:01:33Z" duration-ms="20132">
+      <class name="test.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginTest@5c45d770]" started-at="2021-05-23T14:01:13Z" name="setup" finished-at="2021-05-23T14:01:19Z" duration-ms="6181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@5c45d770]" started-at="2021-05-23T14:01:19Z" name="login" finished-at="2021-05-23T14:01:32Z" duration-ms="13175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:test.LoginTest@5c45d770]" started-at="2021-05-23T14:01:32Z" name="teardown" finished-at="2021-05-23T14:01:33Z" duration-ms="750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Regression Test -->
+</testng-results>
